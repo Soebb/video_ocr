@@ -27,7 +27,9 @@ setup(
     url='https://github.com/apm1467/videocr',
     download_url='https://github.com/apm1467/videocr/archive/v0.1.6.tar.gz',
     install_requires=[
-        'paddlepaddle==2.0.6'
+        'pybind11',
+        'importlib-metadata==4.2.0',
+        'numpy==1.19.3',
     ],
     classifiers=[
         'Development Status :: 3 - Alpha',
