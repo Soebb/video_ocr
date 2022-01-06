@@ -27,9 +27,7 @@ setup(
     url='https://github.com/apm1467/videocr',
     download_url='https://github.com/apm1467/videocr/archive/v0.1.6.tar.gz',
     install_requires=[
-        'fuzzywuzzy>=0.17',
-        'paddleocr>=2.3.0.1',
-        'paddlepaddle>=2.2.0'
+        'paddlepaddle==2.0.6'
     ],
     classifiers=[
         'Development Status :: 3 - Alpha',
